@@ -1,0 +1,116 @@
+#game {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#tiles {
+  display: flex;
+  flex-direction: row;
+  margin: 4em 5em;
+  justify-content: center;
+  align-items: center;
+}
+
+#tiles div{
+  flex-basis: 20%;
+  height: 7em;
+  border: 1px solid white;
+  background-size: 140%;
+  background-position: 50% 50%;
+  background-color: rgb(12, 12, 12);
+  /* filter: drop-shadow(0 0 0.33rem teal); */
+}
+
+#game div {
+  flex-basis: 20%;
+  border: 1px solid black;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  border: 1px solid white;
+  background-size: 80%;
+  background-position: 50% 50%;
+  border-radius: 15px;
+  border-color: teal;
+  background-color: rgb(12, 12, 12);
+  filter: drop-shadow(0 0 0.33rem teal);
+}
+
+#game div:hover {
+  background-color: rgb(19, 19, 19);
+}
+
+#game .not-flipped {
+  background-image: none;
+}
+
+html {
+  background-color: black;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+}
+
+button {
+  border-style: solid;
+  background-color: white;
+  border-radius: 30px;
+  border-color: teal;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 1rem 2rem;
+}
+
+div .hidden {
+  display: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+
+.notPlaying {
+  font-size: 4em;
+}
+
+.moose {
+  background-image: url("https://media3.giphy.com/media/xT4uQ6x9Dq5lvGJUgE/giphy.gif")
+}
+
+.ostrich {
+  background-image: url("https://media.giphy.com/media/d3ML82DT1Qw4hEK4/giphy.gif")
+}
+
+.bear {
+  background-image: url("https://media1.giphy.com/media/3oEjHJrraK98IUCslG/giphy.gif")
+}
+
+.turtle {
+  background-image: url("https://media.giphy.com/media/l0K4aELZtJ68sfZ3a/giphy.gif")
+}
+
+.turtle {
+  background-image: url("https://media.giphy.com/media/l0K4aELZtJ68sfZ3a/giphy.gif")
+}
+
+.racoon {
+  background-image: url("https://media.giphy.com/media/l0K4kXnBEbgmbsyg8/giphy.gif")
+}
+
+.bunny {
+  background-image: url("https://media.giphy.com/media/l0K43Ts0xJqoiJtwk/giphy.gif")
+}
